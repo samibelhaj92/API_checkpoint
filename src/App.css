@@ -1,0 +1,35 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    border:solid 1px black;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* background-image: url('https://img.favpng.com/19/11/14/coffin-royalty-free-clip-art-png-favpng-XWS77kH8ywvXuVd2uKB9xQu28.jpg'); */
+}
+
+.App h1 {
+    font-weight: 900;
+}
+
+.App h2 {
+    border-bottom: solid 1px black;
+    font-weight: 400;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+}
+
+.App button {
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+}
+
+.App li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
